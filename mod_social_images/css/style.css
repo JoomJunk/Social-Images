@@ -1,0 +1,18 @@
+/** 
+* @package JJ Social Images
+* @author JoomJunk
+* @copyright	 2012 JoomJunk. All Rights Reserved
+* @license http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+#socialimages {
+	width:148px;
+	height: 100%;
+	margin:auto;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#socialimages a {
+	text-decoration: none;
+}
