@@ -2,7 +2,7 @@
 /** 
 * @package JJ Social Images
 * @author JoomJunk
-* @copyright	 2012 JoomJunk. All Rights Reserved
+* @copyright	 2015 JoomJunk. All Rights Reserved
 * @license http://www.gnu.org/licenses/gpl-3.0.html
 **/
 
