@@ -14,6 +14,12 @@ $ -> Language fix or change
 - -> Removed
 ! -> Note
 
+Version 1.1.0
++ Added ability to display horizontally
++ Added LinkedIn icon
+$ Made parameter options language strings
+^ Some minor PHP and CSS tweaks
+
 Version 1.0.4
 + Integrated Joomla update feature with 2.5/3.0 version
 ^ Separated Joomla 1.5 and 2.5/3.x versions
