@@ -32,70 +32,74 @@
 			<fieldset name="basic" label="Basic">
 				<field name="@spacer" type="spacer" default="&lt;div id=&quot;image_1&quot;  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Pre Text Settings&lt;/div&gt;" label="" description="" />
 				<field name="pretext" type="textarea" cols="40" rows="6" default="" label="PRETEXT" description="PRETEXTDESC" />
-				<field name="pretext_align" type="radio" default="left" label="PRETEXTALIGN" description="PRETEXTALIGNDESC">
-					<option value="left">Left</option>
-					<option value="center">Center</option>
-					<option value="justify">Justify</option>
+				<field name="pretext_align" type="radio" class="btn-group" default="left" label="PRETEXTALIGN" description="PRETEXTALIGNDESC">
+					<option value="left">LEFT</option>
+					<option value="center">CENTER</option>
+					<option value="justify">JUSTIFY</option>
+				</field>
+				<field name="layout" type="radio" class="btn-group" default="left" label="LAYOUT_TYPE" description="LAYOUT_TYPE_DESC">
+					<option value="vertical">VERTICAL</option>
+					<option value="horizontal">HORIZONTAL</option>
 				</field>
 				
 				<field name="@spacer2" type="spacer" default="&lt;div id=&quot;image_1&quot;  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;General Settings&lt;/div&gt;" label="" description="" />
-				<field name="facebook" type="radio" default="1" label="FACEBOOK" description="FACEBOOKDESC">
-					<option value="0">Hide</option>
-					<option value="1">Show</option>
+				<field name="facebook" type="radio" class="btn-group" default="1" label="FACEBOOK" description="FACEBOOKDESC">
+					<option value="0">HIDE</option>
+					<option value="1">SHOW</option>
 				</field>
 				<field name="facebook_link" type="text" default="http://" label="LINK" description="LINKFACEBOOKDESC" />
 				<field name="@spacer3" type="spacer" default="" label="" description="" />
 
-				<field name="twitter" type="radio" default="1" label="TWITTER" description="TWITTERDESC">
-					<option value="0">Hide</option>
-					<option value="1">Show</option>
+				<field name="twitter" type="radio" class="btn-group" default="1" label="TWITTER" description="TWITTERDESC">
+					<option value="0">HIDE</option>
+					<option value="1">SHOW</option>
 				</field>
 				<field name="twitter_link" type="text" default="http://" label="LINK" description="LINKTWITTERDESC" />
 				<field name="@spacer4" type="spacer" default="" label="" description="" />
 				
-				<field name="myspace" type="radio" default="1" label="MYSPACE" description="MYSPACEDESC">
-					<option value="0">Hide</option>
-					<option value="1">Show</option>
+				<field name="myspace" type="radio" class="btn-group" default="1" label="MYSPACE" description="MYSPACEDESC">
+					<option value="0">HIDE</option>
+					<option value="1">SHOW</option>
 				</field>
 				<field name="myspace_link" type="text" default="http://" label="LINK" description="LINKMYSPACEDESC" />
 				<field name="@spacer5" type="spacer" default="" label="" description="" />
 				
-				<field name="youtube" type="radio" default="1" label="YOUTUBE" description="YOUTUBEDESC">
-					<option value="0">Hide</option>
-					<option value="1">Show</option>
+				<field name="youtube" type="radio" class="btn-group" default="1" label="YOUTUBE" description="YOUTUBEDESC">
+					<option value="0">HIDE</option>
+					<option value="1">SHOW</option>
 				</field>
 				<field name="youtube_link" type="text" default="http://" label="LINK" description="LINKYOUTUBEDESC" />
 				<field name="@spacer6" type="spacer" default="" label="" description="" />
 				
-				<field name="google" type="radio" default="1" label="GOOGLE" description="GOOGLEDESC">
-					<option value="0">Hide</option>
-					<option value="1">Show</option>
+				<field name="google" type="radio" class="btn-group" default="1" label="GOOGLE" description="GOOGLEDESC">
+					<option value="0">HIDE</option>
+					<option value="1">SHOW</option>
 				</field>
 				<field name="google_link" type="text" default="http://" label="LINK" description="LINKGOOGLEDESC" />
 				<field name="@spacer7" type="spacer" default="" label="" description="" />
 				
-				<field name="flickr" type="radio" default="1" label="FLICKR" description="FLICKRDESC">
-					<option value="0">Hide</option>
-					<option value="1">Show</option>
+				<field name="flickr" type="radio" class="btn-group" default="1" label="FLICKR" description="FLICKRDESC">
+					<option value="0">HIDE</option>
+					<option value="1">SHOW</option>
 				</field>
 				<field name="flickr_link" type="text" default="http://" label="LINK" description="LINKFLICKRDESC" />
 				<field name="@spacer8" type="spacer" default="" label="" description="" />
 				
-				<field name="digg" type="radio" default="1" label="DIGG" description="DIGGDESC">
-					<option value="0">Hide</option>
-					<option value="1">Show</option>
+				<field name="digg" type="radio" class="btn-group" default="1" label="DIGG" description="DIGGDESC">
+					<option value="0">HIDE</option>
+					<option value="1">SHOW</option>
 				</field>
 				<field name="digg_link" type="text" default="http://" label="LINK" description="LINKDIGGDESC" />
 				<field name="@spacer9" type="spacer" default="" label="" description="" />
 				
-				<field name="rss" type="radio" default="1" label="RSS" description="RSSDESC">
-					<option value="0">Hide</option>
-					<option value="1">Show</option>
+				<field name="rss" type="radio" class="btn-group" default="1" label="RSS" description="RSSDESC">
+					<option value="0">HIDE</option>
+					<option value="1">SHOW</option>
 				</field>
 				<field name="rss_link" type="text" default="http://" label="LINK" description="LINKRSSDESC" />
 				<field name="@spacer10" type="spacer" default="" label="" description="" />	
 				
-				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="fieldMODULECLASSSUFFIX" />
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="MODULECLASSSUFFIX" />
 			</fieldset>
 		</fields>
 	</config>
