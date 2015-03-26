@@ -46,57 +46,63 @@
 				<field name="facebook" type="radio" class="btn-group" default="1" label="FACEBOOK" description="FACEBOOKDESC">
 					<option value="0">HIDE</option>
 					<option value="1">SHOW</option>
-				</field>
-				<field name="facebook_link" type="text" default="http://" label="LINK" description="LINKFACEBOOKDESC" />
+				</field>PAGELINK" />
 				<field name="@spacer3" type="spacer" default="" label="" description="" />
 
 				<field name="twitter" type="radio" class="btn-group" default="1" label="TWITTER" description="TWITTERDESC">
 					<option value="0">HIDE</option>
 					<option value="1">SHOW</option>
 				</field>
-				<field name="twitter_link" type="text" default="http://" label="LINK" description="LINKTWITTERDESC" />
+				<field name="twitter_link" type="text" default="http://" label="LINK" description="PAGELINK" />
 				<field name="@spacer4" type="spacer" default="" label="" description="" />
+				
+				<field name="linkedin" type="radio" class="btn-group" default="1" label="LINKEDIN" description="PAGELINK">
+					<option value="0">HIDE</option>
+					<option value="1">SHOW</option>
+				</field>
+				<field name="linkedin_link" type="text" default="http://" label="LINK" description="PAGELINK" />
+				<field name="@spacer11" type="spacer" default="" label="" description="" />
 				
 				<field name="myspace" type="radio" class="btn-group" default="1" label="MYSPACE" description="MYSPACEDESC">
 					<option value="0">HIDE</option>
 					<option value="1">SHOW</option>
 				</field>
-				<field name="myspace_link" type="text" default="http://" label="LINK" description="LINKMYSPACEDESC" />
+				<field name="myspace_link" type="text" default="http://" label="LINK" description="PAGELINK" />
 				<field name="@spacer5" type="spacer" default="" label="" description="" />
 				
 				<field name="youtube" type="radio" class="btn-group" default="1" label="YOUTUBE" description="YOUTUBEDESC">
 					<option value="0">HIDE</option>
 					<option value="1">SHOW</option>
 				</field>
-				<field name="youtube_link" type="text" default="http://" label="LINK" description="LINKYOUTUBEDESC" />
+				<field name="youtube_link" type="text" default="http://" label="LINK" description="PAGELINK" />
 				<field name="@spacer6" type="spacer" default="" label="" description="" />
 				
 				<field name="google" type="radio" class="btn-group" default="1" label="GOOGLE" description="GOOGLEDESC">
 					<option value="0">HIDE</option>
 					<option value="1">SHOW</option>
 				</field>
-				<field name="google_link" type="text" default="http://" label="LINK" description="LINKGOOGLEDESC" />
+				<field name="google_link" type="text" default="http://" label="LINK" description="PAGELINK" />
 				<field name="@spacer7" type="spacer" default="" label="" description="" />
 				
 				<field name="flickr" type="radio" class="btn-group" default="1" label="FLICKR" description="FLICKRDESC">
 					<option value="0">HIDE</option>
 					<option value="1">SHOW</option>
 				</field>
-				<field name="flickr_link" type="text" default="http://" label="LINK" description="LINKFLICKRDESC" />
+				<field name="flickr_link" type="text" default="http://" label="LINK" description="PAGELINK" />
 				<field name="@spacer8" type="spacer" default="" label="" description="" />
 				
 				<field name="digg" type="radio" class="btn-group" default="1" label="DIGG" description="DIGGDESC">
 					<option value="0">HIDE</option>
 					<option value="1">SHOW</option>
 				</field>
-				<field name="digg_link" type="text" default="http://" label="LINK" description="LINKDIGGDESC" />
+				<field name="digg_link" type="text" default="http://" label="LINK" description="PAGELINK" />
 				<field name="@spacer9" type="spacer" default="" label="" description="" />
 				
 				<field name="rss" type="radio" class="btn-group" default="1" label="RSS" description="RSSDESC">
 					<option value="0">HIDE</option>
 					<option value="1">SHOW</option>
 				</field>
-				<field name="rss_link" type="text" default="http://" label="LINK" description="LINKRSSDESC" />
+				<field name="rss_link" type="text" default="http://" label="LINK" description="PAGELINK" />
 				<field name="@spacer10" type="spacer" default="" label="" description="" />	
 				
 				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="MODULECLASSSUFFIX" />

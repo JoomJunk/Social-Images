@@ -12,6 +12,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 // init vars
 $facebook		= $params->get('facebook', '1');
 $twitter		= $params->get('twitter', '1');
+$linkedin		= $params->get('linkedin', '1');
 $myspace		= $params->get('myspace', '1');
 $youtube		= $params->get('youtube', '1');
 $google			= $params->get('google', '1');
@@ -20,6 +21,7 @@ $digg			= $params->get('digg', '1');
 $rss			= $params->get('rss', '1');
 $facebook_link	= $params->get('facebook_link');
 $twitter_link	= $params->get('twitter_link');
+$linkedin_link	= $params->get('linkedin_link');
 $myspace_link	= $params->get('myspace_link');
 $youtube_link	= $params->get('youtube_link');
 $google_link	= $params->get('google_link');

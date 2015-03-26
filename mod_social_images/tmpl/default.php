@@ -51,6 +51,12 @@ $doc->addStyleDeclaration($style);
 	</a>
 <?php } ?>
 
+<?php if ($linkedin == 1) { ?>
+	<a target="_blank" href="<?php echo $linkedin_link; ?>">
+		<img src="<?php echo $module_base; ?>icons/linkedin.png" width="64" height="64" alt="Linkedin Logo" />
+	</a>
+<?php } ?>
+
 <?php if ($myspace == 1) { ?>
 	<a target="_blank" href="<?php echo $myspace_link; ?>">
 		<img src="<?php echo $module_base; ?>icons/myspace.png" width="64" height="64" alt="MySpace Logo" />
