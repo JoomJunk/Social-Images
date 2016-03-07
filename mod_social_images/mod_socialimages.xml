@@ -6,7 +6,7 @@
 	<copyright>Copyright (C) 2011 - 2015 JoomJunk</copyright>
 	<authorEmail>admin@joomjunk.co.uk</authorEmail>
 	<authorUrl>http://www.joomjunk.co.uk</authorUrl>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <licence>http://www.gnu.org/licenses/gpl-3.0.html</licence>
 	<description>JJSOCIALIMAGESDESC</description>
 	
@@ -46,7 +46,8 @@
 				<field name="facebook" type="radio" class="btn-group" default="1" label="FACEBOOK" description="FACEBOOKDESC">
 					<option value="0">HIDE</option>
 					<option value="1">SHOW</option>
-				</field>PAGELINK" />
+				</field>
+				<field name="facebook_link" type="text" default="http://" label="LINK" description="PAGELINK" />
 				<field name="@spacer3" type="spacer" default="" label="" description="" />
 
 				<field name="twitter" type="radio" class="btn-group" default="1" label="TWITTER" description="TWITTERDESC">

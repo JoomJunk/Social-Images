@@ -1,10 +1,10 @@
 <?php 
 /** 
-* @package JJ Social Images
-* @author JoomJunk
-* @copyright	 2015 JoomJunk. All Rights Reserved
-* @license http://www.gnu.org/licenses/gpl-3.0.html
-*/
+* @package    JJ Social Images
+* @author     JoomJunk
+* @copyright  2011 - 2016 JoomJunk. All Rights Reserved
+* @license    http://www.gnu.org/licenses/gpl-3.0.html
+**/
 
 // no direct access
 defined('_JEXEC') or die('Restricted access'); 
@@ -18,14 +18,14 @@ $style = '.pretext p {'
 
 if ($layout == 'vertical')
 {
-	$style .= '#socialimages {'
+	$style .= '.socialimages {'
 			. 'width: 148px;'
 			. 'padding: 0;'
 			. '}';
 }
 else
 {
-	$style .= '#socialimages {'
+	$style .= '.socialimages {'
 			. 'width: 100%;'
 			. 'padding: 20p 0 0 20px;'
 			. '}';

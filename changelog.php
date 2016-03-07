@@ -14,6 +14,9 @@ $ -> Language fix or change
 - -> Removed
 ! -> Note
 
+Version 1.2.0
+# Fix facebook URL not showing
+
 Version 1.1.0
 + Added ability to display horizontally
 + Added LinkedIn icon

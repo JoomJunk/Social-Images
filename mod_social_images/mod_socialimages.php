@@ -1,9 +1,9 @@
 <?php
 /** 
-* @package JJ Social Images
-* @author JoomJunk
-* @copyright	 2015 JoomJunk. All Rights Reserved
-* @license http://www.gnu.org/licenses/gpl-3.0.html
+* @package    JJ Social Images
+* @author     JoomJunk
+* @copyright  2011 - 2016 JoomJunk. All Rights Reserved
+* @license    http://www.gnu.org/licenses/gpl-3.0.html
 **/
 
 // no direct access

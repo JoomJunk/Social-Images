@@ -5,12 +5,12 @@
 * @license http://www.gnu.org/licenses/gpl-3.0.html
 */
 
-#socialimages {
+.socialimages {
 	clear: both;
 	height: 100%;
 	margin: auto;
 }
-#socialimages a {
+.socialimages a {
 	text-decoration: none;
 	display: inline-block;
 }
