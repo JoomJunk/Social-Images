@@ -37,7 +37,7 @@
 					<option value="center">CENTER</option>
 					<option value="justify">JUSTIFY</option>
 				</field>
-				<field name="layout" type="radio" class="btn-group" default="left" label="LAYOUT_TYPE" description="LAYOUT_TYPE_DESC">
+				<field name="layout" type="radio" class="btn-group" default="vertical" label="LAYOUT_TYPE" description="LAYOUT_TYPE_DESC">
 					<option value="vertical">VERTICAL</option>
 					<option value="horizontal">HORIZONTAL</option>
 				</field>
