@@ -13,6 +13,8 @@
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.mod_socialimages.ini</language>
 		<language tag="en-GB">en-GB/en-GB.mod_socialimages.sys.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.mod_socialimages.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.mod_socialimages.sys.ini</language>
     </languages>
 	
     <files>
